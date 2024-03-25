@@ -12,6 +12,7 @@ import (
 
 func main() {
 	bucket := aws.String("bucket")
+	bucket := aws.String("bucket")
 	key := aws.String("object")
 
 	s3Config := &aws.Config{
